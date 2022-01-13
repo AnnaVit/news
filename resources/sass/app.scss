@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.news-body{
+    padding-left: 17%;
+    padding-right: 21%;
+}
+.news-h1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.small-news,
+.small-content{
+
+}
+.similar-news
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-similar{
+    display: flex;
+}
