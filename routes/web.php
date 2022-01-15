@@ -32,32 +32,9 @@ Route::group([
 
 });
 
-//Route::get('/show/{id}', [ NewsController::class, 'showNews'])
-//    ->name('show::id');
-
 Route::get('/search/autocomplete-search', [SearchController::class, 'index'])
     ->name('autocomplete.search.index');
 
 Route::get('/search/autocomplete-search-query', [SearchController::class, 'query'])
     ->name('autocomplete.search.query');
 
-
-//Route::get('/add/id', [NewsController::class, 'addToFavorite'])
-//    ->name('add::news');
-
-//Route::get('/', [NewsController::class, 'index']);
-
-//Route::get('/all', [NewsController::class, 'allNews']);
-
-//Route::group([
-//    'prefix' => '/all',
-//    'as' => 'admin::'
-    //'middleware' => ['auth'],
-//], function (){
-//    Route::get('/',  [ NewsController::class, 'allNews'])
-//        ->name('all' );
-//});
-
-//Route::get('/hi2', function () {
-//    return view('welcome2');
-//});
